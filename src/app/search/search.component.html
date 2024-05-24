@@ -1,0 +1,13 @@
+<div class="search-container">
+    <div class="search-bar">
+        <input class="search-input" type="text">
+    </div>
+    <div style="width:100%;display:flex;place-content:space-around;">
+        <button type="button" routerLink="result"
+            style="width:30%;margin:0 auto;background: rgb(28, 180, 55);border: none;color: white;padding: 10px;border-radius: 10px;">Search</button>
+        <button type="button" (click)="onViewDetails()"
+            style="width:30%;margin:0 auto;background: rgb(28, 180, 55);border: none;color: white;padding: 10px;border-radius: 10px;">Configuration</button>
+    </div>
+
+    <router-outlet></router-outlet>
+</div>

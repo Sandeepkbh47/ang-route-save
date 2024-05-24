@@ -1,0 +1,17 @@
+.search-container {
+  background: #d4e7ff;
+  display: flex;
+  height: 94vh;
+  flex-direction: column;
+  width: 30%;
+}
+
+.search-bar {
+  margin: 10px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.search-input {
+  width: 60%;
+}

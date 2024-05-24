@@ -1,0 +1,21 @@
+.nav {
+  background: #203b56;
+  display: flex;
+  width: 30%;
+  place-content: space-around;
+  place-items: center;
+  height: 6vh;
+  color: white;
+}
+.nav_link {
+  font-size: 2.3vmin;
+  user-select: none;
+}
+
+/* .main-section {
+  background: salmon;
+  display: flex;
+  height: 94vh;
+  flex-direction: column;
+  width: 30%;
+} */
